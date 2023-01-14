@@ -28,6 +28,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   color: #3a3a3a;
+  
 }
 
 /* main section */
@@ -37,7 +38,7 @@ body {
   margin-top: 145px;
   display: flex;
   align-items: center;
-  gap: 131px;
+  gap: 125px;
 }
 .short-description {
   margin-left: 120px;
@@ -56,12 +57,13 @@ body {
   width: 505px;
 }
 .banner-photo {
-  margin-right: 132px;
-  padding-left: 30px 33px 31px 2px;
+  margin-right: 128px;
+  padding: 30px 37px 31px 0px;
   background-image: url(../images/Circle\ design.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
 }
-.banner-photo img {
+.banner-photo img bac {
   width: 440px;
   height: 414px;
   background-image: url();
@@ -82,4 +84,66 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #ffffff;
+}
+/* phptp gallary */
+.phot-gallary {
+  display: flex;
+  height: 40px;
+  gap: 60px;
+  align-items: center;
+  height: 35px;
+  margin-left: 227px;
+  margin-right: 225px;
+  /* padding: ; */
+}
+.phot-gallary img {
+  height: 28px;
+  width: 100%;
+}
+
+/* populer collection  style*/
+.popular-collection{
+  text-align: center;
+  margin-top: 100px;
+}
+.popular-item-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  margin-left: 197px;
+  margin-right: 196px;
+}
+.popular-item{
+  padding: 17px;
+  background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+text-align: left;
+}
+.popular-item img{
+  width: 100%;
+}
+.item-title {
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+}
+.price {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 6px;
+  margin-bottom: 0PX;
+}
+.rating{
+  display: flex;
+  gap: 8px;
+  padding: 5px;
+  align-items: center;
+  
+}
+.rating .star{
+  color: gold;
+  font-size: 16px;
 }
