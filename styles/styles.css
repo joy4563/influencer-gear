@@ -1,0 +1,25 @@
+/* header style */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 87px;
+  /* gap: 494px; */
+}
+.header-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.header-item {
+  display: flex;
+  gap: 34px;
+}
+.header-item a {
+  text-decoration: none;
+  font-weight: 600;
+font-size: 16px;
+color: #3A3A3A;
+}
